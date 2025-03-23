@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsPortalAPI", "NewsPortalAPI\NewsPortalAPI.csproj", "{F20ECD7D-15A6-492A-AB17-0666FDD3A7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortalUI.Server", "NewsPortalUI\NewsPortalUI.Server\NewsPortalUI.Server.csproj", "{81189356-6B93-4AB1-AAD8-EC2B890BDD25}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "newsportalui.client", "NewsPortalUI\newsportalui.client\newsportalui.client.esproj", "{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F20ECD7D-15A6-492A-AB17-0666FDD3A7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20ECD7D-15A6-492A-AB17-0666FDD3A7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20ECD7D-15A6-492A-AB17-0666FDD3A7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20ECD7D-15A6-492A-AB17-0666FDD3A7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81189356-6B93-4AB1-AAD8-EC2B890BDD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81189356-6B93-4AB1-AAD8-EC2B890BDD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81189356-6B93-4AB1-AAD8-EC2B890BDD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81189356-6B93-4AB1-AAD8-EC2B890BDD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DB7968-8FAA-4CB6-AA50-321B2440C3CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37B39347-2827-4F9B-BD36-6CA530B7D326}
+	EndGlobalSection
+EndGlobal

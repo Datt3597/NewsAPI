@@ -1,0 +1,1 @@
+C:\Users\datt.mehta\source\repos\NewsPortalAPI\NewsPortalUI\newsportalui.client\obj\Debug\newsportalui.client.esproj.CoreCompileInputs.cache

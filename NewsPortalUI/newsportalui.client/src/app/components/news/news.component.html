@@ -1,0 +1,37 @@
+<div class="news-container">
+  <h2 class="title">News Portal</h2>
+
+  <div class="input-group">
+    <label for="apiKey">Enter API Key:</label>
+    <input type="text" [(ngModel)]="apiKey" id="apiKey" placeholder="Enter NYT API key" />
+    <button (click)="fetchNews()">Fetch News</button>
+  </div>
+
+  <div *ngIf="isLoading" class="loading">Loading news...</div>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <div *ngIf="newsData.length > 0">
+    <table class="news-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Byline</th>
+          <th>Published Date</th>
+          <th>Section</th>
+          <th>Read More</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let news of newsData">
+          <td>{{ news.title }}</td>
+          <td>{{ news.byline }}</td>
+          <td>{{ news.publishedDate | date: 'medium' }}</td>
+          <td>{{ news.section }}</td>
+          <td>
+            <a [href]="news.url" target="_blank" class="read-more">View</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

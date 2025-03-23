@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "FzmWzvR5o7krARjVkxSuYEqkcKD+Y1cb383+5gV1zGs=",
+  "Source": "NewsPortalUI.Server",
+  "BasePath": "_content/NewsPortalUI.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\datt.mehta\\source\\repos\\NewsPortalAPI\\NewsPortalUI\\newsportalui.client\\newsportalui.client.esproj",
+      "Version": 2,
+      "Source": "newsportalui.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
